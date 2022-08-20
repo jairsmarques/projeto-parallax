@@ -1,11 +1,12 @@
-/* Configuração padrão da página */
+/********************************
+* Configuração padrão da página
+*********************************/
 
 body, html {
     margin: 0;
     font: 16px "Lato", sans-serif;
     color: #777;
     height: 100%;
-    border: 1px solid red;
 }
 
 .conteudo {
@@ -19,4 +20,21 @@ h3 {
     text-transform: uppercase;
     color: #111;
     text-align: center;
+}
+
+/***********************
+*    Efeito Paralax
+************************/
+
+.caixa1, .caixa2 {
+    border: 1px solid red;
+    height: 100%;
+}
+
+.caixa1 {
+    background-image: url(../image/imagem1.jpg);
+}
+
+.caixa2 {
+    background-image: url(../image/imagem2.jpg);
 }
